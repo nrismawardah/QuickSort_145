@@ -77,8 +77,15 @@ void q_short(int low, int high)
         // If the greater element is on the left of the element
         if (i < j)                                              // Langkah Algoritma No.9
         {
-            
+            // Swap the element at index i with the element at index j
+            swap(i, j);
+            mov_count++;
         }
+    }
+    // J now containt the index of the last element in the sorted list
+    if (low < j);                                               // Langkah Algoritma No.11
+    {
+
     }
 }
 
