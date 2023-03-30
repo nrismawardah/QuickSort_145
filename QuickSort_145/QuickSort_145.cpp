@@ -19,7 +19,6 @@ void input() {
             cout << "\nMaksimum panjang array adalah 20" << endl;
     }
 
-
     cout << "\n-------------------" << endl;
     cout << "\nEnter Array Element" << endl;
     cout << "\n-------------------" << endl;
@@ -29,6 +28,16 @@ void input() {
         cout << "<" << (i + 1) << ">";
         cin >> arr[i];
     }
+}
+
+// Swaps the element st index x with the element at index y
+void swap(int x, int y)
+{
+    int temp;
+
+    temp = arr[x];
+    arr[x] = arr[y];
+    arr[y] = temp;
 }
 
 
